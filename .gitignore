@@ -25,3 +25,18 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
+.tmp
+dist
+/src/main.js
+
+.Spotlight-V100
+.Traces
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+._*
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
