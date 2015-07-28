@@ -27,16 +27,12 @@ var WineDetailSmall = React.createClass({
 
     return (
         <div className="WineDetailSmall row">
-          <div className="four columns">
-            <img src= {this.props.wine.imageThumb} />
+          <img className="winethumb" src={this.props.wine.imageThumb} />
+          <div className="content">
+            <strong>{this.props.wine.name} <small>{this.props.wine.year}</small></strong>
             <p>rating {this.props.wine.review.rating} ⭐️ ⭐️ ⭐️ ⭐️ ⭐️ </p>
-          </div>
-          <div className="eight columns">
-            <h2>{this.props.wine.name} <small>{this.props.wine.year}</small></h2>
             <p>{this.props.wine.review.text}</p>
-            <ul>
-              {prices}
-            </ul>
+            <div>bottom bar</div>
           </div>
         </div>
       );
