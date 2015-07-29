@@ -46,7 +46,6 @@ var WineDetailLarge = React.createClass({
             <h2>{this.state.name} <small>{this.state.year}</small></h2>
             <p>rating: {this.state.review.rating}</p>
             <p>{this.state.review.text}</p>
-            <div>Bottom Bar</div>
           </div>
         </div>
       );
